@@ -7,6 +7,6 @@ menu = Array(6)
 
 
 for i in range(len(menu)):
-    menu[i] = i + 1
+    menu[i] = i + 1  # info
 
 menu[0]
