@@ -8,7 +8,7 @@ node4 = Node("C", node1)
 # print(node3.next.data)
 
 head = None
-for count in range(1, 15):
+for count in range(1, 10):
     head = Node(count, head)
 
 
