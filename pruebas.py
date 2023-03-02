@@ -1,6 +1,4 @@
-from array import Array
-
-from array import Array
+from array_1 import Array
 
 menu = Array(6)
 # print(menu)
