@@ -2,7 +2,7 @@ from inspect import classify_class_attrs
 
 
 class Array:
-    def __init__(self, capacity, fill_value=None) -> None:
+    def __init__(self, capacity, fill_value=0) -> None:
         self.items = list()
         for i in range(capacity):
             self.items.append(fill_value)
@@ -24,3 +24,6 @@ class Array:
 
     def __sum__(self):
         return [i+1 for i in range(1, 10)]
+
+    def multi(self):
+        return [i*2 for i in range(self.__len__())]

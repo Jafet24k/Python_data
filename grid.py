@@ -1,4 +1,4 @@
-from array import Array
+from array_1 import Array
 
 
 class Grid():

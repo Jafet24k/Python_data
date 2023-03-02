@@ -1,4 +1,4 @@
-from array import Array
+from array_1 import Array
 
 
 def run():
@@ -9,6 +9,7 @@ def run():
     [contador.__setitems__(i, i+1) for i in range(contador.__len__())]
     print(f"Arreglo con datos secuenciales\n {contador.__str__()}\n")
     print(f"Arreglo con suma:\n {contador.__sum__()}\n")
+    print(f"Arreglo con multiplicacion: \n {contador.multi()}")
 
 
 if __name__ == '__main__':
