@@ -10,3 +10,5 @@ print(food.pop())
 # El ultimo en entrar es el primero en salir
 
 print(food.peek())
+print(food.clear())
+print(food.peek())
