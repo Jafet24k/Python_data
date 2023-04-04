@@ -8,7 +8,7 @@ nameList = []
 
 
 def run():
-    for _ in range(2):
+    for _ in range(6):
         borrarPantalla()
         print(""" 
             Welcome to get your first passport to travel anywhere 
