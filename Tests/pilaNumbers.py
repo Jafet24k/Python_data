@@ -32,13 +32,19 @@ class Stack:
         while self.data:
             self.data.pop()
 
-    def __str__(self, data) -> str:
-        String = "["
-        Current = self.size
-        while Current != None:
-            String += str(Current)
-            String += str(", ")
-            # Current = Current.Next
-        String += "]"
+    # def __str__(self, data) -> str:
+    #     String = "["
+    #     Current = self.size
+    #     while Current != None:
+    #         String += str(Current)
+    #         String += str(", ")
+    #         # Current = Current.Next
+    #     String += "]"
 
-        return String
+    #     return String
+
+    # def __str__(self, names) -> str:
+    #     name1 = names
+    #     name = self.names.append(name1)
+
+    #     return name
