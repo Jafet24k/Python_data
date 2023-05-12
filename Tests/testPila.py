@@ -1,4 +1,4 @@
-from pilaNumbers import Stack
+from pilaNumbers import Stack, Tools
 from clearWindow import borrarPantalla
 
 num = Stack()
@@ -6,9 +6,11 @@ ageList = []
 nameList = []
 # listaNumbers = [12, 34, 22, 21, 19, 17, 18, 9, 5, 6, 7]
 
+suma = Tools()
+
 
 def run():
-    for _ in range(3):
+    for _ in range(2):
         borrarPantalla()
         print(""" 
             Welcome to get your first passport to travel anywhere 
@@ -35,6 +37,7 @@ def run():
     # print(f"This' the names = {num.__str__()}")
     # print(num.__str__())
     # print(num.delete())
+    print(suma.suma(10))
 
 
 if __name__ == '__main__':

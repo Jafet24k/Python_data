@@ -32,19 +32,13 @@ class Stack:
         while self.data:
             self.data.pop()
 
-    # def __str__(self, data) -> str:
-    #     String = "["
-    #     Current = self.size
-    #     while Current != None:
-    #         String += str(Current)
-    #         String += str(", ")
-    #         # Current = Current.Next
-    #     String += "]"
 
-    #     return String
+class Tools:
+    def __init__(self) -> None:
+        self.data = 10
 
-    # def __str__(self, names) -> str:
-    #     name1 = names
-    #     name = self.names.append(name1)
+    def suma(self, number):
+        numberInfo = number
+        total = self.data + numberInfo
 
-    #     return name
+        return total
